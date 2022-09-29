@@ -1,0 +1,7 @@
+Make sure to use command : composer install to install all the dependencies and libraries from composer.json in vendor folder along with the npm to install library in package.json file
+Making Migrations of user with all details i.e. User info: name, email, phone, (soft-delte).
+Creating its factory to generate random records.
+Making Mail via terminal: php artisan make:mail YOUR_MAIL_NAME.
+In .env file add its the provided email hosting credential under MAIL prefix attributes.
+Also for SMS twilio is being used, for its implementation use command : composer require twilio/sdk
+This would allow to send SMS to client via FlareClient library.
